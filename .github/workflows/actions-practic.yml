@@ -1,0 +1,9 @@
+name: actions-practic
+
+on: push 
+jobs: 
+  sayHello:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - run: make say-hello
